@@ -1,0 +1,20 @@
+<svg width="320" height="90" viewBox="0 0 320 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="claigradient" x1="0" y1="0" x2="320" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04C7C1"/>
+      <stop offset="1" stop-color="#286BFF"/>
+    </linearGradient>
+    <linearGradient id="icon_gradient" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#90F7EC"/>
+      <stop offset="1" stop-color="#32B2FF"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <circle cx="42" cy="45" r="34" fill="url(#icon_gradient)" fill-opacity="0.12"/>
+    <path d="M42 22 L51 58 L42 51 L33 58 Z" fill="url(#icon_gradient)"/>
+    <circle cx="42" cy="44" r="7" fill="#fff" fill-opacity="0.85"/>
+    <circle cx="42" cy="44" r="3" fill="url(#icon_gradient)"/>
+  </g>
+  <text x="80" y="63" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="bold"
+        fill="url(#claigradient)" letter-spacing="3">CLAi</text>
+</svg>

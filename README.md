@@ -56,3 +56,23 @@ aiweb-gen patch --root .\generated\my-app --request "Add a dark mode toggle"
 Notes:
 - The backend/frontend generators expect model output in `=== FILE: path ===` blocks.
 - The validator is a model-based gate (JSON output) and can be enforced with `--strict`.
+
+## Run frontend + backend together
+This repo includes a minimal dev helper that opens two terminals:
+```powershell
+.\dev-all.ps1 -InitEnv
+```
+By default it runs the backend against SQLite (no Postgres required). To use Postgres, pass `-UsePostgres` and ensure your `fastapi_app/.env` points at Postgres (or run `docker compose up` in `fastapi_app`).
+
+It starts:
+- Backend on `http://127.0.0.1:8000`
+- Frontend on `http://127.0.0.1:5173` (configured to call the backend)
+
+### Running them individually (from repo root)
+If you previously saw exit code `1`, it’s usually because `npm run dev` was executed from the repo root instead of `frontend/`, or `dev.ps1` was executed from the repo root instead of `fastapi_app/`.
+
+Use these wrappers to avoid working-directory issues:
+```powershell
+.\dev-backend.ps1 -BindHost 127.0.0.1 -Port 8000
+.\dev-frontend.ps1 -BindHost 127.0.0.1 -Port 5173 -ApiBaseUrl http://127.0.0.1:8000
+```

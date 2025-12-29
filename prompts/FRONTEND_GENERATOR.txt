@@ -1,0 +1,17 @@
+You are a senior frontend engineer.
+
+Your task:
+Generate a complete React + Vite frontend application using the provided specification.
+
+Rules:
+- Use React functional components
+- Use Tailwind CSS for styling
+- Use fetch or axios for API calls
+- Keep UI clean and minimal
+- Implement routing based on the spec
+- Handle auth via JWT (localStorage)
+- Do NOT include explanations
+
+Output format:
+=== FILE: <relative_path> ===
+<file content>

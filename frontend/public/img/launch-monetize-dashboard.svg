@@ -1,0 +1,49 @@
+<svg width="230" height="250" viewBox="0 0 230 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="230" height="250" fill="#FCFCFE"/>
+  
+  <!-- Yellow/orange arc backdrop -->
+  <ellipse cx="115" cy="80" rx="88" ry="50" fill="#FFD981" opacity="0.48"/>
+  
+  <!-- Abstract blue backdrop -->
+  <ellipse cx="90" cy="100" rx="65" ry="40" fill="#D7E5FF" opacity="0.23"/>
+  
+  <!-- Confetti decorations -->
+  <rect x="188" y="65" width="7" height="7" rx="2" fill="#3E63DD" opacity="0.9"/>
+  <rect x="57" y="52" width="4" height="4" rx="1" fill="#F9AB00"/>
+  <rect x="178" y="148" width="4" height="4" rx="1" fill="#FFD981"/>
+  
+  <!-- Dashboard browser window -->
+  <rect x="37" y="79" width="156" height="66" rx="7" fill="#fff" stroke="#B6CCF5" stroke-width="2"/>
+  <!-- Top bar -->
+  <rect x="37" y="79" width="156" height="13" rx="3" fill="#E8F0FC"/>
+  <!-- Window controls -->
+  <circle cx="49" cy="85" r="2" fill="#FFD981"/>
+  <circle cx="54" cy="85" r="2" fill="#30D4A5"/>
+  <circle cx="59" cy="85" r="2" fill="#3E63DD"/>
+  
+  <!-- UI lines -->
+  <rect x="54" y="100" width="70" height="7" rx="3.5" fill="#B6CCF5"/>
+  <rect x="54" y="112" width="48" height="7" rx="3.5" fill="#30D4A5" opacity="0.67"/>
+  <rect x="54" y="124" width="40" height="7" rx="3.5" fill="#FFD981" opacity="0.70"/>
+  <rect x="54" y="136" width="21" height="7" rx="3.5" fill="#B6CCF5" opacity="0.6"/>
+  <rect x="104" y="136" width="41" height="7" rx="3.5" fill="#B6CCF5" opacity="0.35"/>
+  <rect x="160" y="100" width="22" height="15" rx="3" fill="#FFE084" opacity="0.9"/>
+  
+  <!-- Rocket (above browser window) -->
+  <g>
+    <!-- Rocket body -->
+    <rect x="135" y="52" width="34" height="14" rx="7" fill="#3E63DD" transform="rotate(18 135 52)"/>
+    <ellipse cx="160" cy="57" rx="13" ry="6.5" fill="#3E63DD" transform="rotate(21 160 57)"/>
+    <!-- Rocket window -->
+    <circle cx="166" cy="59" r="3" fill="#fff"/>
+    <!-- Fins -->
+    <polygon points="176,56 183,49 177,60" fill="#F9AB00"/>
+    <!-- Fire/Thrust -->
+    <polygon points="180,49 186,51 179,55" fill="#FFD981" opacity="0.80"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="47" y="180" fill="#233671" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Launch &amp; Monetize</text>
+  <!-- Subtitle -->
+  <text x="47" y="200" fill="#707586" font-family="Arial, sans-serif" font-size="14">Deploy live and start earning</text>
+</svg>

@@ -1,0 +1,7 @@
+Alembic migration environment.
+
+Create an initial migration:
+  alembic revision --autogenerate -m "init"
+
+Apply migrations:
+  alembic upgrade head
