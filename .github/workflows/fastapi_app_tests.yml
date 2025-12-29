@@ -2,8 +2,8 @@ name: fastapi_app tests
 
 on:
   push:
-    branches: ["**"]
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
